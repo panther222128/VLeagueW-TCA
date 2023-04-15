@@ -476,6 +476,24 @@
 			path = Description;
 			sourceTree = "<group>";
 		};
+		A9D83F9929EAF30D00D1D09C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A9E740EB29E2F8D60024DBEC /* VLeagueWomensVolleyballApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A9D83F9A29EAF31A00D1D09C /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				A9E740ED29E2F8D60024DBEC /* Teams.swift */,
+				A9E7411129E301AE0024DBEC /* Team.swift */,
+				A9B5F38E29E4439C008E197B /* Member.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
 		A9E740DF29E2F8D60024DBEC = {
 			isa = PBXGroup;
 			children = (
@@ -495,7 +513,9 @@
 		A9E740EA29E2F8D60024DBEC /* VLeagueWomensVolleyball */ = {
 			isa = PBXGroup;
 			children = (
-				A9E7413B29E31CE10024DBEC /* Domain */,
+				A9D83F9A29EAF31A00D1D09C /* Teams */,
+				A9D83F9929EAF30D00D1D09C /* Application */,
+				A9E7413B29E31CE10024DBEC /* Data */,
 				A9E740EF29E2F8D80024DBEC /* Assets.xcassets */,
 				A9E740F129E2F8D80024DBEC /* Preview Content */,
 			);
@@ -614,16 +634,12 @@
 			path = Description;
 			sourceTree = "<group>";
 		};
-		A9E7413B29E31CE10024DBEC /* Domain */ = {
+		A9E7413B29E31CE10024DBEC /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				A9E740EB29E2F8D60024DBEC /* VLeagueWomensVolleyballApp.swift */,
-				A9E740ED29E2F8D60024DBEC /* Teams.swift */,
-				A9E7411129E301AE0024DBEC /* Team.swift */,
-				A9B5F38E29E4439C008E197B /* Member.swift */,
 				A9E740FB29E2F90D0024DBEC /* Teams */,
 			);
-			path = Domain;
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

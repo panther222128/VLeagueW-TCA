@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9A2FBFD29E5920E00188428 /* GS_KwonMinJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBED29E5920D00188428 /* GS_KwonMinJi_PlayStyle.txt */; };
+		A9A2FBFE29E5920E00188428 /* GS_OhSeYeon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBEE29E5920D00188428 /* GS_OhSeYeon_PlayStyle.txt */; };
+		A9A2FBFF29E5920E00188428 /* GS_KimYuRi_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBEF29E5920D00188428 /* GS_KimYuRi_LatestSeason.txt */; };
+		A9A2FC0029E5920E00188428 /* GS_YoonGyeol_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF029E5920D00188428 /* GS_YoonGyeol_PlayStyle.txt */; };
+		A9A2FC0129E5920E00188428 /* GS_HanSooJin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF129E5920D00188428 /* GS_HanSooJin_PlayStyle.txt */; };
+		A9A2FC0229E5920E00188428 /* GS_ChoiEunJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF229E5920D00188428 /* GS_ChoiEunJi_PlayStyle.txt */; };
+		A9A2FC0329E5920E00188428 /* GS_YooSeoYeun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF329E5920D00188428 /* GS_YooSeoYeun_PlayStyle.txt */; };
+		A9A2FC0429E5920E00188428 /* GS_KimBoBeen_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF429E5920D00188428 /* GS_KimBoBeen_LatestSeason.txt */; };
+		A9A2FC0529E5920E00188428 /* GS_MoonJiYun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF529E5920D00188428 /* GS_MoonJiYun_PlayStyle.txt */; };
+		A9A2FC0629E5920E00188428 /* GS_MoonMyungHwa_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF629E5920D00188428 /* GS_MoonMyungHwa_PlayStyle.txt */; };
+		A9A2FC0729E5920E00188428 /* GS_KimJiWon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF729E5920D00188428 /* GS_KimJiWon_PlayStyle.txt */; };
+		A9A2FC0829E5920E00188428 /* GS_HanSooJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF829E5920D00188428 /* GS_HanSooJi_PlayStyle.txt */; };
+		A9A2FC0929E5920E00188428 /* GS_AnHyeJin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBF929E5920D00188428 /* GS_AnHyeJin_PlayStyle.txt */; };
+		A9A2FC0A29E5920E00188428 /* GS_KangSoHwi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBFA29E5920D00188428 /* GS_KangSoHwi_PlayStyle.txt */; };
+		A9A2FC0B29E5920E00188428 /* GS_KimJooHee_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBFB29E5920D00188428 /* GS_KimJooHee_PlayStyle.txt */; };
+		A9A2FC0C29E5920E00188428 /* GS_HanDaHye_LatestSeasion.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FBFC29E5920D00188428 /* GS_HanDaHye_LatestSeasion.txt */; };
+		A9A2FC0E29E5937700188428 /* GS_ChaSangHyun_CoachingStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9A2FC0D29E5937700188428 /* GS_ChaSangHyun_CoachingStyle.txt */; };
+		A9AA145F29E8390300EC043B /* KGC_ChoiHyoSeo_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA144D29E8390300EC043B /* KGC_ChoiHyoSeo_LatestSeason.txt */; };
+		A9AA146029E8390300EC043B /* KGC_LeeSoYoung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA144E29E8390300EC043B /* KGC_LeeSoYoung_PlayStyle.txt */; };
+		A9AA146129E8390300EC043B /* KGC_KoMinJi_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA144F29E8390300EC043B /* KGC_KoMinJi_LatestSeason.txt */; };
+		A9AA146229E8390300EC043B /* KGC_ParkHyeMin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145029E8390300EC043B /* KGC_ParkHyeMin_PlayStyle.txt */; };
+		A9AA146329E8390300EC043B /* KGC_JungHoYoung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145129E8390300EC043B /* KGC_JungHoYoung_PlayStyle.txt */; };
+		A9AA146429E8390300EC043B /* KGC_ParkEunJin_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145229E8390300EC043B /* KGC_ParkEunJin_LatestSeason.txt */; };
+		A9AA146529E8390300EC043B /* KGC_SeoYuKyung_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145329E8390300EC043B /* KGC_SeoYuKyung_LatestSeason.txt */; };
+		A9AA146629E8390300EC043B /* KGC_KimChaeNa_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145429E8390300EC043B /* KGC_KimChaeNa_PlayStyle.txt */; };
+		A9AA146829E8390300EC043B /* KGC_HanSongYi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145629E8390300EC043B /* KGC_HanSongYi_PlayStyle.txt */; };
+		A9AA146929E8390300EC043B /* KGC_YeumHyeSeon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145729E8390300EC043B /* KGC_YeumHyeSeon_PlayStyle.txt */; };
+		A9AA146A29E8390300EC043B /* KGC_ChaeSeonAh_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145829E8390300EC043B /* KGC_ChaeSeonAh_LatestSeason.txt */; };
+		A9AA146B29E8390300EC043B /* KGC_LeeSeonWoo_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145929E8390300EC043B /* KGC_LeeSeonWoo_LatestSeason.txt */; };
+		A9AA146C29E8390300EC043B /* KGC_LeeJiSu_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145A29E8390300EC043B /* KGC_LeeJiSu_PlayStyle.txt */; };
+		A9AA146D29E8390300EC043B /* KGC_KoUiJeong_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145B29E8390300EC043B /* KGC_KoUiJeong_LatestSeason.txt */; };
+		A9AA146E29E8390300EC043B /* KGC_ParkEunJi_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145C29E8390300EC043B /* KGC_ParkEunJi_LatestSeason.txt */; };
+		A9AA146F29E8390300EC043B /* KGC_LeeYeSol_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145D29E8390300EC043B /* KGC_LeeYeSol_LatestSeason.txt */; };
+		A9AA147029E8390300EC043B /* KGC_NohRan_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA145E29E8390300EC043B /* KGC_NohRan_PlayStyle.txt */; };
+		A9AA147229E8397000EC043B /* KGC_KimHyeonJi_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA147129E8397000EC043B /* KGC_KimHyeonJi_LatestSeason.txt */; };
+		A9AA147429E83AF200EC043B /* KGC_KoHeeJin.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA147329E83AF200EC043B /* KGC_KoHeeJin.txt */; };
+		A9B5F35129E43630008E197B /* HP_ChaYuJeong_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F33E29E43630008E197B /* HP_ChaYuJeong_PlayStyle.txt */; };
+		A9B5F35229E43630008E197B /* HP_BackChaeRim_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F33F29E43630008E197B /* HP_BackChaeRim_PlayStyle.txt */; };
+		A9B5F35329E43630008E197B /* HP_BaeYuNa_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34029E43630008E197B /* HP_BaeYuNa_PlayStyle.txt */; };
+		A9B5F35429E43630008E197B /* HP_AhnYeRim_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34129E43630008E197B /* HP_AhnYeRim_PlayStyle.txt */; };
+		A9B5F35629E43630008E197B /* HP_WooSuMin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34329E43630008E197B /* HP_WooSuMin_PlayStyle.txt */; };
+		A9B5F35729E43630008E197B /* HP_LeeYeRim_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34429E43630008E197B /* HP_LeeYeRim_PlayStyle.txt */; };
+		A9B5F35829E43630008E197B /* HP_KongEunSeo_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34529E43630008E197B /* HP_KongEunSeo_PlayStyle.txt */; };
+		A9B5F35929E43630008E197B /* HP_KimSeIn_LatestSeasion.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34629E43630008E197B /* HP_KimSeIn_LatestSeasion.txt */; };
+		A9B5F35A29E43630008E197B /* HP_JeonSaeYan_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34729E43630008E197B /* HP_JeonSaeYan_LatestSeason.txt */; };
+		A9B5F35B29E43630008E197B /* HP_MoonJeongWon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34829E43630008E197B /* HP_MoonJeongWon_PlayStyle.txt */; };
+		A9B5F35C29E43630008E197B /* HP_ParkJeongAh_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34929E43630008E197B /* HP_ParkJeongAh_PlayStyle.txt */; };
+		A9B5F35D29E43630008E197B /* HP_JeongDaeYoung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34A29E43630008E197B /* HP_JeongDaeYoung_PlayStyle.txt */; };
+		A9B5F35E29E43630008E197B /* HP_YimJuEun_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34B29E43630008E197B /* HP_YimJuEun_LatestSeason.txt */; };
+		A9B5F35F29E43630008E197B /* HP_LeeYunJeong_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34C29E43630008E197B /* HP_LeeYunJeong_PlayStyle.txt */; };
+		A9B5F36029E43630008E197B /* HP_LeeMiSo_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34D29E43630008E197B /* HP_LeeMiSo_LatestSeason.txt */; };
+		A9B5F36129E43630008E197B /* HP_LeeYeDam_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34E29E43630008E197B /* HP_LeeYeDam_PlayStyle.txt */; };
+		A9B5F36229E43630008E197B /* HP_YimMyungOk_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F34F29E43630008E197B /* HP_YimMyungOk_PlayStyle.txt */; };
+		A9B5F36329E43630008E197B /* HP_LeeYeEun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F35029E43630008E197B /* HP_LeeYeEun_PlayStyle.txt */; };
+		A9B5F37829E43646008E197B /* HH_KimYeonGyeon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36429E43645008E197B /* HH_KimYeonGyeon_PlayStyle.txt */; };
+		A9B5F37929E43646008E197B /* HH_JeongSiYoung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36529E43645008E197B /* HH_JeongSiYoung_PlayStyle.txt */; };
+		A9B5F37A29E43646008E197B /* HH_LeeDaHyun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36629E43645008E197B /* HH_LeeDaHyun_PlayStyle.txt */; };
+		A9B5F37B29E43646008E197B /* HH_KimJuHa_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36729E43645008E197B /* HH_KimJuHa_PlayStyle.txt */; };
+		A9B5F37C29E43646008E197B /* HH_KimDaIn_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36829E43645008E197B /* HH_KimDaIn_LatestSeason.txt */; };
+		A9B5F37D29E43646008E197B /* HH_KangSungHyung_CoachingStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36929E43646008E197B /* HH_KangSungHyung_CoachingStyle.txt */; };
+		A9B5F37E29E43646008E197B /* HH_KimSaRang_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36A29E43646008E197B /* HH_KimSaRang_PlayStyle.txt */; };
+		A9B5F37F29E43646008E197B /* HH_HanMiReu_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36B29E43646008E197B /* HH_HanMiReu_PlayStyle.txt */; };
+		A9B5F38029E43646008E197B /* HH_LeeHyunJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36C29E43646008E197B /* HH_LeeHyunJi_PlayStyle.txt */; };
+		A9B5F38129E43646008E197B /* HH_HwangMinKyung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36D29E43646008E197B /* HH_HwangMinKyung_PlayStyle.txt */; };
+		A9B5F38229E43646008E197B /* HH_JungJiYun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36E29E43646008E197B /* HH_JungJiYun_PlayStyle.txt */; };
+		A9B5F38329E43646008E197B /* HH_HwangYoonSung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F36F29E43646008E197B /* HH_HwangYoonSung_PlayStyle.txt */; };
+		A9B5F38429E43646008E197B /* HH_LeeYoungJu_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37029E43646008E197B /* HH_LeeYoungJu_PlayStyle.txt */; };
+		A9B5F38529E43646008E197B /* HH_HwangYeonJoo_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37129E43646008E197B /* HH_HwangYeonJoo_PlayStyle.txt */; };
+		A9B5F38629E43646008E197B /* HH_HwangJiMin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37229E43646008E197B /* HH_HwangJiMin_PlayStyle.txt */; };
+		A9B5F38729E43646008E197B /* HH_LeeNaYeon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37329E43646008E197B /* HH_LeeNaYeon_PlayStyle.txt */; };
+		A9B5F38829E43646008E197B /* HH_KoYeRim_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37429E43646008E197B /* HH_KoYeRim_PlayStyle.txt */; };
+		A9B5F38929E43646008E197B /* HH_NaHyunSoo_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37529E43646008E197B /* HH_NaHyunSoo_PlayStyle.txt */; };
+		A9B5F38A29E43646008E197B /* HH_SeoGaEun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37629E43646008E197B /* HH_SeoGaEun_PlayStyle.txt */; };
+		A9B5F38B29E43646008E197B /* HH_YangHyoJin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F37729E43646008E197B /* HH_YangHyoJin_PlayStyle.txt */; };
+		A9B5F38D29E43708008E197B /* HP_JeongSoYool_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9B5F38C29E43708008E197B /* HP_JeongSoYool_PlayStyle.txt */; };
+		A9B5F38F29E4439C008E197B /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B5F38E29E4439C008E197B /* Member.swift */; };
+		A9D208ED29E6E4CC00467C52 /* IBK_ParkMinJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208DA29E6E4CC00467C52 /* IBK_ParkMinJi_PlayStyle.txt */; };
+		A9D208EE29E6E4CC00467C52 /* IBK_KimHeeJin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208DB29E6E4CC00467C52 /* IBK_KimHeeJin_PlayStyle.txt */; };
+		A9D208EF29E6E4CC00467C52 /* IBK_KimSuJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208DC29E6E4CC00467C52 /* IBK_KimSuJi_PlayStyle.txt */; };
+		A9D208F029E6E4CC00467C52 /* IBK_KimSuBin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208DD29E6E4CC00467C52 /* IBK_KimSuBin_PlayStyle.txt */; };
+		A9D208F129E6E4CC00467C52 /* IBK_KimJuHyang_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208DE29E6E4CC00467C52 /* IBK_KimJuHyang_PlayStyle.txt */; };
+		A9D208F229E6E4CC00467C52 /* IBK_LeeJin_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208DF29E6E4CC00467C52 /* IBK_LeeJin_LatestSeason.txt */; };
+		A9D208F329E6E4CC00467C52 /* IBK_ChoiSuBin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E029E6E4CC00467C52 /* IBK_ChoiSuBin_PlayStyle.txt */; };
+		A9D208F429E6E4CC00467C52 /* IBK_ChoiJungMin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E129E6E4CC00467C52 /* IBK_ChoiJungMin_PlayStyle.txt */; };
+		A9D208F529E6E4CC00467C52 /* IBK_KooHyeIn_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E229E6E4CC00467C52 /* IBK_KooHyeIn_PlayStyle.txt */; };
+		A9D208F629E6E4CC00467C52 /* IBK_KimYunWoo_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E329E6E4CC00467C52 /* IBK_KimYunWoo_PlayStyle.txt */; };
+		A9D208F729E6E4CC00467C52 /* IBK_KimHaKyung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E429E6E4CC00467C52 /* IBK_KimHaKyung_PlayStyle.txt */; };
+		A9D208F829E6E4CC00467C52 /* IBK_JeonHyunKyung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E529E6E4CC00467C52 /* IBK_JeonHyunKyung_PlayStyle.txt */; };
+		A9D208F929E6E4CC00467C52 /* IBK_KimHyunJung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E629E6E4CC00467C52 /* IBK_KimHyunJung_PlayStyle.txt */; };
+		A9D208FA29E6E4CC00467C52 /* IBK_LeeSolAh_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E729E6E4CC00467C52 /* IBK_LeeSolAh_PlayStyle.txt */; };
+		A9D208FB29E6E4CC00467C52 /* IBK_OhYuRan_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E829E6E4CC00467C52 /* IBK_OhYuRan_PlayStyle.txt */; };
+		A9D208FC29E6E4CC00467C52 /* IBK_YangYuKyung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208E929E6E4CC00467C52 /* IBK_YangYuKyung_PlayStyle.txt */; };
+		A9D208FD29E6E4CC00467C52 /* IBK_ShinYeonGyeong_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208EA29E6E4CC00467C52 /* IBK_ShinYeonGyeong_PlayStyle.txt */; };
+		A9D208FE29E6E4CC00467C52 /* IBK_YukSeoYeong_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208EB29E6E4CC00467C52 /* IBK_YukSeoYeong_LatestSeason.txt */; };
+		A9D208FF29E6E4CC00467C52 /* IBK_PyoSeungJu_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D208EC29E6E4CC00467C52 /* IBK_PyoSeungJu_LatestSeason.txt */; };
+		A9D83F5D29E99F5E00D1D09C /* PS_KimSeoYoon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4829E99F5D00D1D09C /* PS_KimSeoYoon_PlayStyle.txt */; };
+		A9D83F5E29E99F5E00D1D09C /* PS_PyeonJiSu_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4929E99F5D00D1D09C /* PS_PyeonJiSu_LatestSeason.txt */; };
+		A9D83F5F29E99F5E00D1D09C /* PS_KimDaEun_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4A29E99F5D00D1D09C /* PS_KimDaEun_LatestSeason.txt */; };
+		A9D83F6029E99F5E00D1D09C /* PS_LeeJuAh_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4B29E99F5D00D1D09C /* PS_LeeJuAh_LatestSeason.txt */; };
+		A9D83F6129E99F5E00D1D09C /* PS_ParkHyeJin_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4C29E99F5D00D1D09C /* PS_ParkHyeJin_LatestSeason.txt */; };
+		A9D83F6229E99F5E00D1D09C /* PS_KimYeonKoung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4D29E99F5D00D1D09C /* PS_KimYeonKoung_PlayStyle.txt */; };
+		A9D83F6329E99F5E00D1D09C /* PS_ParkEunSeo_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4E29E99F5D00D1D09C /* PS_ParkEunSeo_LatestSeason.txt */; };
+		A9D83F6429E99F5E00D1D09C /* PS_JeongYunJoo_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F4F29E99F5D00D1D09C /* PS_JeongYunJoo_PlayStyle.txt */; };
+		A9D83F6529E99F5E00D1D09C /* PS_ParkSangMi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5029E99F5D00D1D09C /* PS_ParkSangMi_PlayStyle.txt */; };
+		A9D83F6629E99F5E00D1D09C /* PS_ParkSuYeon_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5129E99F5D00D1D09C /* PS_ParkSuYeon_LatestSeason.txt */; };
+		A9D83F6729E99F5E00D1D09C /* PS_DoSuBeen_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5229E99F5D00D1D09C /* PS_DoSuBeen_LatestSeason.txt */; };
+		A9D83F6829E99F5E00D1D09C /* PS_KimMinJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5329E99F5D00D1D09C /* PS_KimMinJi_PlayStyle.txt */; };
+		A9D83F6929E99F5E00D1D09C /* PS_KimNaHee_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5429E99F5D00D1D09C /* PS_KimNaHee_PlayStyle.txt */; };
+		A9D83F6A29E99F5E00D1D09C /* PS_YimHyeRim_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5529E99F5D00D1D09C /* PS_YimHyeRim_LatestSeason.txt */; };
+		A9D83F6B29E99F5E00D1D09C /* PS_LeeWonJeong_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5629E99F5D00D1D09C /* PS_LeeWonJeong_PlayStyle.txt */; };
+		A9D83F6C29E99F5E00D1D09C /* PS_KimDaSol_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5729E99F5D00D1D09C /* PS_KimDaSol_PlayStyle.txt */; };
+		A9D83F6D29E99F5E00D1D09C /* PS_KimMiYeon_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5829E99F5D00D1D09C /* PS_KimMiYeon_LatestSeason.txt */; };
+		A9D83F6E29E99F5E00D1D09C /* PS_KimHaeRan_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5929E99F5D00D1D09C /* PS_KimHaeRan_LatestSeason.txt */; };
+		A9D83F6F29E99F5E00D1D09C /* PS_KimChaeYeon_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5A29E99F5D00D1D09C /* PS_KimChaeYeon_LatestSeason.txt */; };
+		A9D83F7029E99F5E00D1D09C /* PS_ParkHyeonJu_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5B29E99F5D00D1D09C /* PS_ParkHyeonJu_LatestSeason.txt */; };
+		A9D83F7129E99F5E00D1D09C /* PS_Abbondanza.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F5C29E99F5E00D1D09C /* PS_Abbondanza.txt */; };
+		A9D83F7329E9A16300D1D09C /* PS_KimJiWoo_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7229E9A16300D1D09C /* PS_KimJiWoo_PlayStyle.txt */; };
+		A9D83F8729EA478800D1D09C /* AI_OhJiYoung_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7529EA478800D1D09C /* AI_OhJiYoung_PlayStyle.txt */; };
+		A9D83F8829EA478800D1D09C /* AI_ChoiGaEun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7629EA478800D1D09C /* AI_ChoiGaEun_PlayStyle.txt */; };
+		A9D83F8929EA478800D1D09C /* AI_LeeHanBi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7729EA478800D1D09C /* AI_LeeHanBi_PlayStyle.txt */; };
+		A9D83F8A29EA478800D1D09C /* AI_ParkEunSeo_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7829EA478800D1D09C /* AI_ParkEunSeo_LatestSeason.txt */; };
+		A9D83F8B29EA478800D1D09C /* AI_KimHaeBin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7929EA478800D1D09C /* AI_KimHaeBin_PlayStyle.txt */; };
+		A9D83F8C29EA478800D1D09C /* AI_LeeEunJi_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7A29EA478800D1D09C /* AI_LeeEunJi_PlayStyle.txt */; };
+		A9D83F8D29EA478800D1D09C /* AI_LeeHyun_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7B29EA478800D1D09C /* AI_LeeHyun_LatestSeason.txt */; };
+		A9D83F8E29EA478800D1D09C /* AI_ParkGyeongHyeon_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7C29EA478800D1D09C /* AI_ParkGyeongHyeon_LatestSeason.txt */; };
+		A9D83F8F29EA478800D1D09C /* AI_SeoChaeWon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7D29EA478800D1D09C /* AI_SeoChaeWon_PlayStyle.txt */; };
+		A9D83F9029EA478800D1D09C /* AI_MoonSeulKi_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7E29EA478800D1D09C /* AI_MoonSeulKi_LatestSeason.txt */; };
+		A9D83F9129EA478800D1D09C /* AI_JiMinKyeong_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F7F29EA478800D1D09C /* AI_JiMinKyeong_LatestSeason.txt */; };
+		A9D83F9229EA478800D1D09C /* AI_LeeKoEun_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F8029EA478800D1D09C /* AI_LeeKoEun_PlayStyle.txt */; };
+		A9D83F9329EA478800D1D09C /* AI_HaHyeJin_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F8129EA478800D1D09C /* AI_HaHyeJin_PlayStyle.txt */; };
+		A9D83F9429EA478800D1D09C /* AI_ParkYeonWha_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F8229EA478800D1D09C /* AI_ParkYeonWha_LatestSeason.txt */; };
+		A9D83F9529EA478800D1D09C /* AI_YeumOrkhon_PlayStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F8329EA478800D1D09C /* AI_YeumOrkhon_PlayStyle.txt */; };
+		A9D83F9629EA478800D1D09C /* AI_ParkSaRang_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F8429EA478800D1D09C /* AI_ParkSaRang_LatestSeason.txt */; };
+		A9D83F9729EA478800D1D09C /* AI_LeeMinSeo_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F8529EA478800D1D09C /* AI_LeeMinSeo_LatestSeason.txt */; };
+		A9D83F9829EA478800D1D09C /* AI_KooSol_LatestSeason.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D83F8629EA478800D1D09C /* AI_KooSol_LatestSeason.txt */; };
+		A9E740EC29E2F8D60024DBEC /* VLeagueWomensVolleyballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740EB29E2F8D60024DBEC /* VLeagueWomensVolleyballApp.swift */; };
+		A9E740EE29E2F8D60024DBEC /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740ED29E2F8D60024DBEC /* Teams.swift */; };
+		A9E740F029E2F8D80024DBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E740EF29E2F8D80024DBEC /* Assets.xcassets */; };
+		A9E740F329E2F8D80024DBEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E740F229E2F8D80024DBEC /* Preview Assets.xcassets */; };
+		A9E7410429E2FDEE0024DBEC /* HiPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7410329E2FDEE0024DBEC /* HiPass.swift */; };
+		A9E7410629E2FDFD0024DBEC /* KGC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7410529E2FDFD0024DBEC /* KGC.swift */; };
+		A9E7410829E2FE040024DBEC /* GSKIXX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7410729E2FE040024DBEC /* GSKIXX.swift */; };
+		A9E7410A29E2FE130024DBEC /* PinkSpiders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7410929E2FE130024DBEC /* PinkSpiders.swift */; };
+		A9E7410C29E2FE190024DBEC /* IBKAltos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7410B29E2FE190024DBEC /* IBKAltos.swift */; };
+		A9E7410E29E2FE350024DBEC /* HyundaiHillstate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7410D29E2FE350024DBEC /* HyundaiHillstate.swift */; };
+		A9E7411029E2FE400024DBEC /* AIPeppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7410F29E2FE400024DBEC /* AIPeppers.swift */; };
+		A9E7411229E301AE0024DBEC /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7411129E301AE0024DBEC /* Team.swift */; };
+		A9E7413A29E31CD10024DBEC /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = A9E7413929E31CD10024DBEC /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9A2FBED29E5920D00188428 /* GS_KwonMinJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_KwonMinJi_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_KwonMinJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBEE29E5920D00188428 /* GS_OhSeYeon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_OhSeYeon_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_OhSeYeon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBEF29E5920D00188428 /* GS_KimYuRi_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_KimYuRi_LatestSeason.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_KimYuRi_LatestSeason.txt; sourceTree = "<group>"; };
+		A9A2FBF029E5920D00188428 /* GS_YoonGyeol_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_YoonGyeol_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_YoonGyeol_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF129E5920D00188428 /* GS_HanSooJin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_HanSooJin_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_HanSooJin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF229E5920D00188428 /* GS_ChoiEunJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_ChoiEunJi_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_ChoiEunJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF329E5920D00188428 /* GS_YooSeoYeun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_YooSeoYeun_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_YooSeoYeun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF429E5920D00188428 /* GS_KimBoBeen_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_KimBoBeen_LatestSeason.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_KimBoBeen_LatestSeason.txt; sourceTree = "<group>"; };
+		A9A2FBF529E5920D00188428 /* GS_MoonJiYun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_MoonJiYun_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_MoonJiYun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF629E5920D00188428 /* GS_MoonMyungHwa_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_MoonMyungHwa_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_MoonMyungHwa_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF729E5920D00188428 /* GS_KimJiWon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_KimJiWon_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_KimJiWon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF829E5920D00188428 /* GS_HanSooJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_HanSooJi_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_HanSooJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBF929E5920D00188428 /* GS_AnHyeJin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_AnHyeJin_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_AnHyeJin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBFA29E5920D00188428 /* GS_KangSoHwi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_KangSoHwi_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_KangSoHwi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBFB29E5920D00188428 /* GS_KimJooHee_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_KimJooHee_PlayStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_KimJooHee_PlayStyle.txt; sourceTree = "<group>"; };
+		A9A2FBFC29E5920D00188428 /* GS_HanDaHye_LatestSeasion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_HanDaHye_LatestSeasion.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_HanDaHye_LatestSeasion.txt; sourceTree = "<group>"; };
+		A9A2FC0D29E5937700188428 /* GS_ChaSangHyun_CoachingStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GS_ChaSangHyun_CoachingStyle.txt; path = ../../../../../../../VLeague/GSKixx/Description/GS_ChaSangHyun_CoachingStyle.txt; sourceTree = "<group>"; };
+		A9AA144D29E8390300EC043B /* KGC_ChoiHyoSeo_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_ChoiHyoSeo_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_ChoiHyoSeo_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA144E29E8390300EC043B /* KGC_LeeSoYoung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_LeeSoYoung_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_LeeSoYoung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA144F29E8390300EC043B /* KGC_KoMinJi_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_KoMinJi_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_KoMinJi_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145029E8390300EC043B /* KGC_ParkHyeMin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_ParkHyeMin_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_ParkHyeMin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA145129E8390300EC043B /* KGC_JungHoYoung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_JungHoYoung_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_JungHoYoung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA145229E8390300EC043B /* KGC_ParkEunJin_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_ParkEunJin_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_ParkEunJin_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145329E8390300EC043B /* KGC_SeoYuKyung_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_SeoYuKyung_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_SeoYuKyung_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145429E8390300EC043B /* KGC_KimChaeNa_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_KimChaeNa_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_KimChaeNa_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA145629E8390300EC043B /* KGC_HanSongYi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_HanSongYi_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_HanSongYi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA145729E8390300EC043B /* KGC_YeumHyeSeon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_YeumHyeSeon_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_YeumHyeSeon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA145829E8390300EC043B /* KGC_ChaeSeonAh_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_ChaeSeonAh_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_ChaeSeonAh_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145929E8390300EC043B /* KGC_LeeSeonWoo_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_LeeSeonWoo_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_LeeSeonWoo_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145A29E8390300EC043B /* KGC_LeeJiSu_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_LeeJiSu_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_LeeJiSu_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA145B29E8390300EC043B /* KGC_KoUiJeong_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_KoUiJeong_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_KoUiJeong_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145C29E8390300EC043B /* KGC_ParkEunJi_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_ParkEunJi_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_ParkEunJi_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145D29E8390300EC043B /* KGC_LeeYeSol_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_LeeYeSol_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_LeeYeSol_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA145E29E8390300EC043B /* KGC_NohRan_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_NohRan_PlayStyle.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_NohRan_PlayStyle.txt; sourceTree = "<group>"; };
+		A9AA147129E8397000EC043B /* KGC_KimHyeonJi_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_KimHyeonJi_LatestSeason.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_KimHyeonJi_LatestSeason.txt; sourceTree = "<group>"; };
+		A9AA147329E83AF200EC043B /* KGC_KoHeeJin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KGC_KoHeeJin.txt; path = ../../../../../../../VLeague/KGC/Description/KGC_KoHeeJin.txt; sourceTree = "<group>"; };
+		A9B5F33E29E43630008E197B /* HP_ChaYuJeong_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_ChaYuJeong_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_ChaYuJeong_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F33F29E43630008E197B /* HP_BackChaeRim_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_BackChaeRim_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_BackChaeRim_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34029E43630008E197B /* HP_BaeYuNa_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_BaeYuNa_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_BaeYuNa_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34129E43630008E197B /* HP_AhnYeRim_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_AhnYeRim_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_AhnYeRim_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34329E43630008E197B /* HP_WooSuMin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_WooSuMin_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_WooSuMin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34429E43630008E197B /* HP_LeeYeRim_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_LeeYeRim_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_LeeYeRim_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34529E43630008E197B /* HP_KongEunSeo_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_KongEunSeo_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_KongEunSeo_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34629E43630008E197B /* HP_KimSeIn_LatestSeasion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_KimSeIn_LatestSeasion.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_KimSeIn_LatestSeasion.txt; sourceTree = "<group>"; };
+		A9B5F34729E43630008E197B /* HP_JeonSaeYan_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_JeonSaeYan_LatestSeason.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_JeonSaeYan_LatestSeason.txt; sourceTree = "<group>"; };
+		A9B5F34829E43630008E197B /* HP_MoonJeongWon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_MoonJeongWon_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_MoonJeongWon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34929E43630008E197B /* HP_ParkJeongAh_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_ParkJeongAh_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_ParkJeongAh_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34A29E43630008E197B /* HP_JeongDaeYoung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_JeongDaeYoung_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_JeongDaeYoung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34B29E43630008E197B /* HP_YimJuEun_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_YimJuEun_LatestSeason.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_YimJuEun_LatestSeason.txt; sourceTree = "<group>"; };
+		A9B5F34C29E43630008E197B /* HP_LeeYunJeong_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_LeeYunJeong_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_LeeYunJeong_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34D29E43630008E197B /* HP_LeeMiSo_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_LeeMiSo_LatestSeason.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_LeeMiSo_LatestSeason.txt; sourceTree = "<group>"; };
+		A9B5F34E29E43630008E197B /* HP_LeeYeDam_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_LeeYeDam_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_LeeYeDam_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F34F29E43630008E197B /* HP_YimMyungOk_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_YimMyungOk_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_YimMyungOk_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F35029E43630008E197B /* HP_LeeYeEun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_LeeYeEun_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_LeeYeEun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36429E43645008E197B /* HH_KimYeonGyeon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_KimYeonGyeon_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_KimYeonGyeon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36529E43645008E197B /* HH_JeongSiYoung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_JeongSiYoung_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_JeongSiYoung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36629E43645008E197B /* HH_LeeDaHyun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_LeeDaHyun_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_LeeDaHyun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36729E43645008E197B /* HH_KimJuHa_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_KimJuHa_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_KimJuHa_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36829E43645008E197B /* HH_KimDaIn_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_KimDaIn_LatestSeason.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_KimDaIn_LatestSeason.txt; sourceTree = "<group>"; };
+		A9B5F36929E43646008E197B /* HH_KangSungHyung_CoachingStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_KangSungHyung_CoachingStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_KangSungHyung_CoachingStyle.txt; sourceTree = "<group>"; };
+		A9B5F36A29E43646008E197B /* HH_KimSaRang_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_KimSaRang_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_KimSaRang_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36B29E43646008E197B /* HH_HanMiReu_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_HanMiReu_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_HanMiReu_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36C29E43646008E197B /* HH_LeeHyunJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_LeeHyunJi_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_LeeHyunJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36D29E43646008E197B /* HH_HwangMinKyung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_HwangMinKyung_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_HwangMinKyung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36E29E43646008E197B /* HH_JungJiYun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_JungJiYun_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_JungJiYun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F36F29E43646008E197B /* HH_HwangYoonSung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_HwangYoonSung_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_HwangYoonSung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37029E43646008E197B /* HH_LeeYoungJu_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_LeeYoungJu_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_LeeYoungJu_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37129E43646008E197B /* HH_HwangYeonJoo_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_HwangYeonJoo_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_HwangYeonJoo_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37229E43646008E197B /* HH_HwangJiMin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_HwangJiMin_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_HwangJiMin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37329E43646008E197B /* HH_LeeNaYeon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_LeeNaYeon_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_LeeNaYeon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37429E43646008E197B /* HH_KoYeRim_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_KoYeRim_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_KoYeRim_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37529E43646008E197B /* HH_NaHyunSoo_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_NaHyunSoo_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_NaHyunSoo_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37629E43646008E197B /* HH_SeoGaEun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_SeoGaEun_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_SeoGaEun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F37729E43646008E197B /* HH_YangHyoJin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HH_YangHyoJin_PlayStyle.txt; path = ../../../../../../../VLeague/HyundaiHillstate/Description/HH_YangHyoJin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F38C29E43708008E197B /* HP_JeongSoYool_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HP_JeongSoYool_PlayStyle.txt; path = ../../../../../../../VLeague/HiPass/Description/HP_JeongSoYool_PlayStyle.txt; sourceTree = "<group>"; };
+		A9B5F38E29E4439C008E197B /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		A9D208DA29E6E4CC00467C52 /* IBK_ParkMinJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_ParkMinJi_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_ParkMinJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208DB29E6E4CC00467C52 /* IBK_KimHeeJin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KimHeeJin_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KimHeeJin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208DC29E6E4CC00467C52 /* IBK_KimSuJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KimSuJi_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KimSuJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208DD29E6E4CC00467C52 /* IBK_KimSuBin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KimSuBin_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KimSuBin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208DE29E6E4CC00467C52 /* IBK_KimJuHyang_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KimJuHyang_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KimJuHyang_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208DF29E6E4CC00467C52 /* IBK_LeeJin_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_LeeJin_LatestSeason.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_LeeJin_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D208E029E6E4CC00467C52 /* IBK_ChoiSuBin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_ChoiSuBin_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_ChoiSuBin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E129E6E4CC00467C52 /* IBK_ChoiJungMin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_ChoiJungMin_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_ChoiJungMin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E229E6E4CC00467C52 /* IBK_KooHyeIn_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KooHyeIn_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KooHyeIn_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E329E6E4CC00467C52 /* IBK_KimYunWoo_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KimYunWoo_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KimYunWoo_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E429E6E4CC00467C52 /* IBK_KimHaKyung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KimHaKyung_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KimHaKyung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E529E6E4CC00467C52 /* IBK_JeonHyunKyung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_JeonHyunKyung_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_JeonHyunKyung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E629E6E4CC00467C52 /* IBK_KimHyunJung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_KimHyunJung_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_KimHyunJung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E729E6E4CC00467C52 /* IBK_LeeSolAh_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_LeeSolAh_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_LeeSolAh_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E829E6E4CC00467C52 /* IBK_OhYuRan_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_OhYuRan_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_OhYuRan_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208E929E6E4CC00467C52 /* IBK_YangYuKyung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_YangYuKyung_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_YangYuKyung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208EA29E6E4CC00467C52 /* IBK_ShinYeonGyeong_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_ShinYeonGyeong_PlayStyle.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_ShinYeonGyeong_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D208EB29E6E4CC00467C52 /* IBK_YukSeoYeong_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_YukSeoYeong_LatestSeason.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_YukSeoYeong_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D208EC29E6E4CC00467C52 /* IBK_PyoSeungJu_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IBK_PyoSeungJu_LatestSeason.txt; path = ../../../../../../../VLeague/IBK/Description/IBK_PyoSeungJu_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F4829E99F5D00D1D09C /* PS_KimSeoYoon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimSeoYoon_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimSeoYoon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F4929E99F5D00D1D09C /* PS_PyeonJiSu_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_PyeonJiSu_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_PyeonJiSu_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F4A29E99F5D00D1D09C /* PS_KimDaEun_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimDaEun_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimDaEun_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F4B29E99F5D00D1D09C /* PS_LeeJuAh_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_LeeJuAh_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_LeeJuAh_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F4C29E99F5D00D1D09C /* PS_ParkHyeJin_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_ParkHyeJin_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_ParkHyeJin_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F4D29E99F5D00D1D09C /* PS_KimYeonKoung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimYeonKoung_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimYeonKoung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F4E29E99F5D00D1D09C /* PS_ParkEunSeo_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_ParkEunSeo_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_ParkEunSeo_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F4F29E99F5D00D1D09C /* PS_JeongYunJoo_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_JeongYunJoo_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_JeongYunJoo_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F5029E99F5D00D1D09C /* PS_ParkSangMi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_ParkSangMi_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_ParkSangMi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F5129E99F5D00D1D09C /* PS_ParkSuYeon_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_ParkSuYeon_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_ParkSuYeon_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F5229E99F5D00D1D09C /* PS_DoSuBeen_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_DoSuBeen_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_DoSuBeen_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F5329E99F5D00D1D09C /* PS_KimMinJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimMinJi_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimMinJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F5429E99F5D00D1D09C /* PS_KimNaHee_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimNaHee_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimNaHee_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F5529E99F5D00D1D09C /* PS_YimHyeRim_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_YimHyeRim_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_YimHyeRim_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F5629E99F5D00D1D09C /* PS_LeeWonJeong_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_LeeWonJeong_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_LeeWonJeong_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F5729E99F5D00D1D09C /* PS_KimDaSol_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimDaSol_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimDaSol_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F5829E99F5D00D1D09C /* PS_KimMiYeon_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimMiYeon_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimMiYeon_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F5929E99F5D00D1D09C /* PS_KimHaeRan_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimHaeRan_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimHaeRan_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F5A29E99F5D00D1D09C /* PS_KimChaeYeon_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimChaeYeon_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimChaeYeon_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F5B29E99F5D00D1D09C /* PS_ParkHyeonJu_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_ParkHyeonJu_LatestSeason.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_ParkHyeonJu_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F5C29E99F5E00D1D09C /* PS_Abbondanza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_Abbondanza.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_Abbondanza.txt; sourceTree = "<group>"; };
+		A9D83F7229E9A16300D1D09C /* PS_KimJiWoo_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PS_KimJiWoo_PlayStyle.txt; path = ../../../../../../../VLeague/PinkSpiders/Description/PS_KimJiWoo_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F7529EA478800D1D09C /* AI_OhJiYoung_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_OhJiYoung_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_OhJiYoung_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F7629EA478800D1D09C /* AI_ChoiGaEun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_ChoiGaEun_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_ChoiGaEun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F7729EA478800D1D09C /* AI_LeeHanBi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_LeeHanBi_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_LeeHanBi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F7829EA478800D1D09C /* AI_ParkEunSeo_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_ParkEunSeo_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_ParkEunSeo_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F7929EA478800D1D09C /* AI_KimHaeBin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_KimHaeBin_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_KimHaeBin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F7A29EA478800D1D09C /* AI_LeeEunJi_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_LeeEunJi_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_LeeEunJi_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F7B29EA478800D1D09C /* AI_LeeHyun_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_LeeHyun_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_LeeHyun_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F7C29EA478800D1D09C /* AI_ParkGyeongHyeon_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_ParkGyeongHyeon_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_ParkGyeongHyeon_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F7D29EA478800D1D09C /* AI_SeoChaeWon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_SeoChaeWon_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_SeoChaeWon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F7E29EA478800D1D09C /* AI_MoonSeulKi_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_MoonSeulKi_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_MoonSeulKi_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F7F29EA478800D1D09C /* AI_JiMinKyeong_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_JiMinKyeong_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_JiMinKyeong_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F8029EA478800D1D09C /* AI_LeeKoEun_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_LeeKoEun_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_LeeKoEun_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F8129EA478800D1D09C /* AI_HaHyeJin_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_HaHyeJin_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_HaHyeJin_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F8229EA478800D1D09C /* AI_ParkYeonWha_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_ParkYeonWha_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_ParkYeonWha_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F8329EA478800D1D09C /* AI_YeumOrkhon_PlayStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_YeumOrkhon_PlayStyle.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_YeumOrkhon_PlayStyle.txt; sourceTree = "<group>"; };
+		A9D83F8429EA478800D1D09C /* AI_ParkSaRang_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_ParkSaRang_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_ParkSaRang_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F8529EA478800D1D09C /* AI_LeeMinSeo_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_LeeMinSeo_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_LeeMinSeo_LatestSeason.txt; sourceTree = "<group>"; };
+		A9D83F8629EA478800D1D09C /* AI_KooSol_LatestSeason.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AI_KooSol_LatestSeason.txt; path = ../../../../../../../VLeague/AIPeppers/Description/AI_KooSol_LatestSeason.txt; sourceTree = "<group>"; };
+		A9E740E829E2F8D60024DBEC /* VLeagueWomensVolleyball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLeagueWomensVolleyball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E740EB29E2F8D60024DBEC /* VLeagueWomensVolleyballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLeagueWomensVolleyballApp.swift; sourceTree = "<group>"; };
+		A9E740ED29E2F8D60024DBEC /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		A9E740EF29E2F8D80024DBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E740F229E2F8D80024DBEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9E7410329E2FDEE0024DBEC /* HiPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiPass.swift; sourceTree = "<group>"; };
+		A9E7410529E2FDFD0024DBEC /* KGC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KGC.swift; sourceTree = "<group>"; };
+		A9E7410729E2FE040024DBEC /* GSKIXX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSKIXX.swift; sourceTree = "<group>"; };
+		A9E7410929E2FE130024DBEC /* PinkSpiders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkSpiders.swift; sourceTree = "<group>"; };
+		A9E7410B29E2FE190024DBEC /* IBKAltos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBKAltos.swift; sourceTree = "<group>"; };
+		A9E7410D29E2FE350024DBEC /* HyundaiHillstate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyundaiHillstate.swift; sourceTree = "<group>"; };
+		A9E7410F29E2FE400024DBEC /* AIPeppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPeppers.swift; sourceTree = "<group>"; };
+		A9E7411129E301AE0024DBEC /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E740E529E2F8D60024DBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E7413A29E31CD10024DBEC /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9A2FBEC29E5885100188428 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2FC0D29E5937700188428 /* GS_ChaSangHyun_CoachingStyle.txt */,
+				A9A2FBF929E5920D00188428 /* GS_AnHyeJin_PlayStyle.txt */,
+				A9A2FBF229E5920D00188428 /* GS_ChoiEunJi_PlayStyle.txt */,
+				A9A2FBFC29E5920D00188428 /* GS_HanDaHye_LatestSeasion.txt */,
+				A9A2FBF829E5920D00188428 /* GS_HanSooJi_PlayStyle.txt */,
+				A9A2FBF129E5920D00188428 /* GS_HanSooJin_PlayStyle.txt */,
+				A9A2FBFA29E5920D00188428 /* GS_KangSoHwi_PlayStyle.txt */,
+				A9A2FBF429E5920D00188428 /* GS_KimBoBeen_LatestSeason.txt */,
+				A9A2FBF729E5920D00188428 /* GS_KimJiWon_PlayStyle.txt */,
+				A9A2FBFB29E5920D00188428 /* GS_KimJooHee_PlayStyle.txt */,
+				A9A2FBEF29E5920D00188428 /* GS_KimYuRi_LatestSeason.txt */,
+				A9A2FBED29E5920D00188428 /* GS_KwonMinJi_PlayStyle.txt */,
+				A9A2FBF529E5920D00188428 /* GS_MoonJiYun_PlayStyle.txt */,
+				A9A2FBF629E5920D00188428 /* GS_MoonMyungHwa_PlayStyle.txt */,
+				A9A2FBEE29E5920D00188428 /* GS_OhSeYeon_PlayStyle.txt */,
+				A9A2FBF029E5920D00188428 /* GS_YoonGyeol_PlayStyle.txt */,
+				A9A2FBF329E5920D00188428 /* GS_YooSeoYeun_PlayStyle.txt */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		A9AA144C29E838F400EC043B /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA145829E8390300EC043B /* KGC_ChaeSeonAh_LatestSeason.txt */,
+				A9AA144D29E8390300EC043B /* KGC_ChoiHyoSeo_LatestSeason.txt */,
+				A9AA145629E8390300EC043B /* KGC_HanSongYi_PlayStyle.txt */,
+				A9AA145129E8390300EC043B /* KGC_JungHoYoung_PlayStyle.txt */,
+				A9AA145429E8390300EC043B /* KGC_KimChaeNa_PlayStyle.txt */,
+				A9AA144F29E8390300EC043B /* KGC_KoMinJi_LatestSeason.txt */,
+				A9AA145B29E8390300EC043B /* KGC_KoUiJeong_LatestSeason.txt */,
+				A9AA145A29E8390300EC043B /* KGC_LeeJiSu_PlayStyle.txt */,
+				A9AA145929E8390300EC043B /* KGC_LeeSeonWoo_LatestSeason.txt */,
+				A9AA144E29E8390300EC043B /* KGC_LeeSoYoung_PlayStyle.txt */,
+				A9AA145D29E8390300EC043B /* KGC_LeeYeSol_LatestSeason.txt */,
+				A9AA145E29E8390300EC043B /* KGC_NohRan_PlayStyle.txt */,
+				A9AA145C29E8390300EC043B /* KGC_ParkEunJi_LatestSeason.txt */,
+				A9AA145229E8390300EC043B /* KGC_ParkEunJin_LatestSeason.txt */,
+				A9AA147129E8397000EC043B /* KGC_KimHyeonJi_LatestSeason.txt */,
+				A9AA147329E83AF200EC043B /* KGC_KoHeeJin.txt */,
+				A9AA145029E8390300EC043B /* KGC_ParkHyeMin_PlayStyle.txt */,
+				A9AA145329E8390300EC043B /* KGC_SeoYuKyung_LatestSeason.txt */,
+				A9AA145729E8390300EC043B /* KGC_YeumHyeSeon_PlayStyle.txt */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		A9B5F33D29E4245E008E197B /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				A9B5F34129E43630008E197B /* HP_AhnYeRim_PlayStyle.txt */,
+				A9B5F33F29E43630008E197B /* HP_BackChaeRim_PlayStyle.txt */,
+				A9B5F34029E43630008E197B /* HP_BaeYuNa_PlayStyle.txt */,
+				A9B5F33E29E43630008E197B /* HP_ChaYuJeong_PlayStyle.txt */,
+				A9B5F34A29E43630008E197B /* HP_JeongDaeYoung_PlayStyle.txt */,
+				A9B5F34729E43630008E197B /* HP_JeonSaeYan_LatestSeason.txt */,
+				A9B5F34629E43630008E197B /* HP_KimSeIn_LatestSeasion.txt */,
+				A9B5F34529E43630008E197B /* HP_KongEunSeo_PlayStyle.txt */,
+				A9B5F34D29E43630008E197B /* HP_LeeMiSo_LatestSeason.txt */,
+				A9B5F34E29E43630008E197B /* HP_LeeYeDam_PlayStyle.txt */,
+				A9B5F35029E43630008E197B /* HP_LeeYeEun_PlayStyle.txt */,
+				A9B5F34429E43630008E197B /* HP_LeeYeRim_PlayStyle.txt */,
+				A9B5F34C29E43630008E197B /* HP_LeeYunJeong_PlayStyle.txt */,
+				A9B5F34829E43630008E197B /* HP_MoonJeongWon_PlayStyle.txt */,
+				A9B5F34929E43630008E197B /* HP_ParkJeongAh_PlayStyle.txt */,
+				A9B5F38C29E43708008E197B /* HP_JeongSoYool_PlayStyle.txt */,
+				A9B5F34329E43630008E197B /* HP_WooSuMin_PlayStyle.txt */,
+				A9B5F34B29E43630008E197B /* HP_YimJuEun_LatestSeason.txt */,
+				A9B5F34F29E43630008E197B /* HP_YimMyungOk_PlayStyle.txt */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		A9D208D929E6DDE600467C52 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				A9D208E129E6E4CC00467C52 /* IBK_ChoiJungMin_PlayStyle.txt */,
+				A9D208E029E6E4CC00467C52 /* IBK_ChoiSuBin_PlayStyle.txt */,
+				A9D208E529E6E4CC00467C52 /* IBK_JeonHyunKyung_PlayStyle.txt */,
+				A9D208E429E6E4CC00467C52 /* IBK_KimHaKyung_PlayStyle.txt */,
+				A9D208DB29E6E4CC00467C52 /* IBK_KimHeeJin_PlayStyle.txt */,
+				A9D208E629E6E4CC00467C52 /* IBK_KimHyunJung_PlayStyle.txt */,
+				A9D208DE29E6E4CC00467C52 /* IBK_KimJuHyang_PlayStyle.txt */,
+				A9D208DD29E6E4CC00467C52 /* IBK_KimSuBin_PlayStyle.txt */,
+				A9D208DC29E6E4CC00467C52 /* IBK_KimSuJi_PlayStyle.txt */,
+				A9D208E329E6E4CC00467C52 /* IBK_KimYunWoo_PlayStyle.txt */,
+				A9D208E229E6E4CC00467C52 /* IBK_KooHyeIn_PlayStyle.txt */,
+				A9D208DF29E6E4CC00467C52 /* IBK_LeeJin_LatestSeason.txt */,
+				A9D208E729E6E4CC00467C52 /* IBK_LeeSolAh_PlayStyle.txt */,
+				A9D208E829E6E4CC00467C52 /* IBK_OhYuRan_PlayStyle.txt */,
+				A9D208DA29E6E4CC00467C52 /* IBK_ParkMinJi_PlayStyle.txt */,
+				A9D208EC29E6E4CC00467C52 /* IBK_PyoSeungJu_LatestSeason.txt */,
+				A9D208EA29E6E4CC00467C52 /* IBK_ShinYeonGyeong_PlayStyle.txt */,
+				A9D208E929E6E4CC00467C52 /* IBK_YangYuKyung_PlayStyle.txt */,
+				A9D208EB29E6E4CC00467C52 /* IBK_YukSeoYeong_LatestSeason.txt */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		A9D83F4729E99F5000D1D09C /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				A9D83F5C29E99F5E00D1D09C /* PS_Abbondanza.txt */,
+				A9D83F5229E99F5D00D1D09C /* PS_DoSuBeen_LatestSeason.txt */,
+				A9D83F4F29E99F5D00D1D09C /* PS_JeongYunJoo_PlayStyle.txt */,
+				A9D83F5A29E99F5D00D1D09C /* PS_KimChaeYeon_LatestSeason.txt */,
+				A9D83F4A29E99F5D00D1D09C /* PS_KimDaEun_LatestSeason.txt */,
+				A9D83F5729E99F5D00D1D09C /* PS_KimDaSol_PlayStyle.txt */,
+				A9D83F5929E99F5D00D1D09C /* PS_KimHaeRan_LatestSeason.txt */,
+				A9D83F5329E99F5D00D1D09C /* PS_KimMinJi_PlayStyle.txt */,
+				A9D83F5829E99F5D00D1D09C /* PS_KimMiYeon_LatestSeason.txt */,
+				A9D83F7229E9A16300D1D09C /* PS_KimJiWoo_PlayStyle.txt */,
+				A9D83F5429E99F5D00D1D09C /* PS_KimNaHee_PlayStyle.txt */,
+				A9D83F4829E99F5D00D1D09C /* PS_KimSeoYoon_PlayStyle.txt */,
+				A9D83F4D29E99F5D00D1D09C /* PS_KimYeonKoung_PlayStyle.txt */,
+				A9D83F4B29E99F5D00D1D09C /* PS_LeeJuAh_LatestSeason.txt */,
+				A9D83F5629E99F5D00D1D09C /* PS_LeeWonJeong_PlayStyle.txt */,
+				A9D83F4E29E99F5D00D1D09C /* PS_ParkEunSeo_LatestSeason.txt */,
+				A9D83F4C29E99F5D00D1D09C /* PS_ParkHyeJin_LatestSeason.txt */,
+				A9D83F5B29E99F5D00D1D09C /* PS_ParkHyeonJu_LatestSeason.txt */,
+				A9D83F5029E99F5D00D1D09C /* PS_ParkSangMi_PlayStyle.txt */,
+				A9D83F5129E99F5D00D1D09C /* PS_ParkSuYeon_LatestSeason.txt */,
+				A9D83F4929E99F5D00D1D09C /* PS_PyeonJiSu_LatestSeason.txt */,
+				A9D83F5529E99F5D00D1D09C /* PS_YimHyeRim_LatestSeason.txt */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		A9D83F7429EA477600D1D09C /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				A9D83F7629EA478800D1D09C /* AI_ChoiGaEun_PlayStyle.txt */,
+				A9D83F8129EA478800D1D09C /* AI_HaHyeJin_PlayStyle.txt */,
+				A9D83F7F29EA478800D1D09C /* AI_JiMinKyeong_LatestSeason.txt */,
+				A9D83F7929EA478800D1D09C /* AI_KimHaeBin_PlayStyle.txt */,
+				A9D83F8629EA478800D1D09C /* AI_KooSol_LatestSeason.txt */,
+				A9D83F7A29EA478800D1D09C /* AI_LeeEunJi_PlayStyle.txt */,
+				A9D83F7729EA478800D1D09C /* AI_LeeHanBi_PlayStyle.txt */,
+				A9D83F7B29EA478800D1D09C /* AI_LeeHyun_LatestSeason.txt */,
+				A9D83F8029EA478800D1D09C /* AI_LeeKoEun_PlayStyle.txt */,
+				A9D83F8529EA478800D1D09C /* AI_LeeMinSeo_LatestSeason.txt */,
+				A9D83F7E29EA478800D1D09C /* AI_MoonSeulKi_LatestSeason.txt */,
+				A9D83F7529EA478800D1D09C /* AI_OhJiYoung_PlayStyle.txt */,
+				A9D83F7829EA478800D1D09C /* AI_ParkEunSeo_LatestSeason.txt */,
+				A9D83F7C29EA478800D1D09C /* AI_ParkGyeongHyeon_LatestSeason.txt */,
+				A9D83F8429EA478800D1D09C /* AI_ParkSaRang_LatestSeason.txt */,
+				A9D83F8229EA478800D1D09C /* AI_ParkYeonWha_LatestSeason.txt */,
+				A9D83F7D29EA478800D1D09C /* AI_SeoChaeWon_PlayStyle.txt */,
+				A9D83F8329EA478800D1D09C /* AI_YeumOrkhon_PlayStyle.txt */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		A9E740DF29E2F8D60024DBEC = {
+			isa = PBXGroup;
+			children = (
+				A9E740EA29E2F8D60024DBEC /* VLeagueWomensVolleyball */,
+				A9E740E929E2F8D60024DBEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E740E929E2F8D60024DBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E740E829E2F8D60024DBEC /* VLeagueWomensVolleyball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E740EA29E2F8D60024DBEC /* VLeagueWomensVolleyball */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7413B29E31CE10024DBEC /* Domain */,
+				A9E740EF29E2F8D80024DBEC /* Assets.xcassets */,
+				A9E740F129E2F8D80024DBEC /* Preview Content */,
+			);
+			path = VLeagueWomensVolleyball;
+			sourceTree = "<group>";
+		};
+		A9E740F129E2F8D80024DBEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9E740F229E2F8D80024DBEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9E740FB29E2F90D0024DBEC /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				A9E740FC29E2F9160024DBEC /* HyundaiHillstate */,
+				A9E7410229E2F9580024DBEC /* HiPass */,
+				A9E7410129E2F9340024DBEC /* KGC */,
+				A9E7410029E2F92F0024DBEC /* GSKIXX */,
+				A9E740FF29E2F9280024DBEC /* PinkSpiders */,
+				A9E740FE29E2F9240024DBEC /* IBKAltos */,
+				A9E740FD29E2F9200024DBEC /* AIPeppers */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		A9E740FC29E2F9160024DBEC /* HyundaiHillstate */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7410D29E2FE350024DBEC /* HyundaiHillstate.swift */,
+				A9E7411329E30BB10024DBEC /* Description */,
+			);
+			path = HyundaiHillstate;
+			sourceTree = "<group>";
+		};
+		A9E740FD29E2F9200024DBEC /* AIPeppers */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7410F29E2FE400024DBEC /* AIPeppers.swift */,
+				A9D83F7429EA477600D1D09C /* Description */,
+			);
+			path = AIPeppers;
+			sourceTree = "<group>";
+		};
+		A9E740FE29E2F9240024DBEC /* IBKAltos */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7410B29E2FE190024DBEC /* IBKAltos.swift */,
+				A9D208D929E6DDE600467C52 /* Description */,
+			);
+			path = IBKAltos;
+			sourceTree = "<group>";
+		};
+		A9E740FF29E2F9280024DBEC /* PinkSpiders */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7410929E2FE130024DBEC /* PinkSpiders.swift */,
+				A9D83F4729E99F5000D1D09C /* Description */,
+			);
+			path = PinkSpiders;
+			sourceTree = "<group>";
+		};
+		A9E7410029E2F92F0024DBEC /* GSKIXX */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7410729E2FE040024DBEC /* GSKIXX.swift */,
+				A9A2FBEC29E5885100188428 /* Description */,
+			);
+			path = GSKIXX;
+			sourceTree = "<group>";
+		};
+		A9E7410129E2F9340024DBEC /* KGC */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7410529E2FDFD0024DBEC /* KGC.swift */,
+				A9AA144C29E838F400EC043B /* Description */,
+			);
+			path = KGC;
+			sourceTree = "<group>";
+		};
+		A9E7410229E2F9580024DBEC /* HiPass */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7410329E2FDEE0024DBEC /* HiPass.swift */,
+				A9B5F33D29E4245E008E197B /* Description */,
+			);
+			path = HiPass;
+			sourceTree = "<group>";
+		};
+		A9E7411329E30BB10024DBEC /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				A9B5F36B29E43646008E197B /* HH_HanMiReu_PlayStyle.txt */,
+				A9B5F37229E43646008E197B /* HH_HwangJiMin_PlayStyle.txt */,
+				A9B5F36D29E43646008E197B /* HH_HwangMinKyung_PlayStyle.txt */,
+				A9B5F37129E43646008E197B /* HH_HwangYeonJoo_PlayStyle.txt */,
+				A9B5F36F29E43646008E197B /* HH_HwangYoonSung_PlayStyle.txt */,
+				A9B5F36529E43645008E197B /* HH_JeongSiYoung_PlayStyle.txt */,
+				A9B5F36E29E43646008E197B /* HH_JungJiYun_PlayStyle.txt */,
+				A9B5F36929E43646008E197B /* HH_KangSungHyung_CoachingStyle.txt */,
+				A9B5F36829E43645008E197B /* HH_KimDaIn_LatestSeason.txt */,
+				A9B5F36729E43645008E197B /* HH_KimJuHa_PlayStyle.txt */,
+				A9B5F36A29E43646008E197B /* HH_KimSaRang_PlayStyle.txt */,
+				A9B5F36429E43645008E197B /* HH_KimYeonGyeon_PlayStyle.txt */,
+				A9B5F37429E43646008E197B /* HH_KoYeRim_PlayStyle.txt */,
+				A9B5F36629E43645008E197B /* HH_LeeDaHyun_PlayStyle.txt */,
+				A9B5F36C29E43646008E197B /* HH_LeeHyunJi_PlayStyle.txt */,
+				A9B5F37329E43646008E197B /* HH_LeeNaYeon_PlayStyle.txt */,
+				A9B5F37029E43646008E197B /* HH_LeeYoungJu_PlayStyle.txt */,
+				A9B5F37529E43646008E197B /* HH_NaHyunSoo_PlayStyle.txt */,
+				A9B5F37629E43646008E197B /* HH_SeoGaEun_PlayStyle.txt */,
+				A9B5F37729E43646008E197B /* HH_YangHyoJin_PlayStyle.txt */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		A9E7413B29E31CE10024DBEC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A9E740EB29E2F8D60024DBEC /* VLeagueWomensVolleyballApp.swift */,
+				A9E740ED29E2F8D60024DBEC /* Teams.swift */,
+				A9E7411129E301AE0024DBEC /* Team.swift */,
+				A9B5F38E29E4439C008E197B /* Member.swift */,
+				A9E740FB29E2F90D0024DBEC /* Teams */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E740E729E2F8D60024DBEC /* VLeagueWomensVolleyball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E740F629E2F8D80024DBEC /* Build configuration list for PBXNativeTarget "VLeagueWomensVolleyball" */;
+			buildPhases = (
+				A9E740E429E2F8D60024DBEC /* Sources */,
+				A9E740E529E2F8D60024DBEC /* Frameworks */,
+				A9E740E629E2F8D60024DBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLeagueWomensVolleyball;
+			packageProductDependencies = (
+				A9E7413929E31CD10024DBEC /* ComposableArchitecture */,
+			);
+			productName = VLeagueWomensVolleyball;
+			productReference = A9E740E829E2F8D60024DBEC /* VLeagueWomensVolleyball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E740E029E2F8D60024DBEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A9E740E729E2F8D60024DBEC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A9E740E329E2F8D60024DBEC /* Build configuration list for PBXProject "VLeagueWomensVolleyball" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E740DF29E2F8D60024DBEC;
+			packageReferences = (
+				A9E7413829E31CD10024DBEC /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = A9E740E929E2F8D60024DBEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E740E729E2F8D60024DBEC /* VLeagueWomensVolleyball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E740E629E2F8D60024DBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D208EE29E6E4CC00467C52 /* IBK_KimHeeJin_PlayStyle.txt in Resources */,
+				A9A2FC0229E5920E00188428 /* GS_ChoiEunJi_PlayStyle.txt in Resources */,
+				A9B5F38229E43646008E197B /* HH_JungJiYun_PlayStyle.txt in Resources */,
+				A9A2FC0929E5920E00188428 /* GS_AnHyeJin_PlayStyle.txt in Resources */,
+				A9B5F35929E43630008E197B /* HP_KimSeIn_LatestSeasion.txt in Resources */,
+				A9A2FC0E29E5937700188428 /* GS_ChaSangHyun_CoachingStyle.txt in Resources */,
+				A9E740F329E2F8D80024DBEC /* Preview Assets.xcassets in Resources */,
+				A9B5F35729E43630008E197B /* HP_LeeYeRim_PlayStyle.txt in Resources */,
+				A9D83F9629EA478800D1D09C /* AI_ParkSaRang_LatestSeason.txt in Resources */,
+				A9D83F8F29EA478800D1D09C /* AI_SeoChaeWon_PlayStyle.txt in Resources */,
+				A9D83F8729EA478800D1D09C /* AI_OhJiYoung_PlayStyle.txt in Resources */,
+				A9A2FC0429E5920E00188428 /* GS_KimBoBeen_LatestSeason.txt in Resources */,
+				A9D83F6529E99F5E00D1D09C /* PS_ParkSangMi_PlayStyle.txt in Resources */,
+				A9A2FC0C29E5920E00188428 /* GS_HanDaHye_LatestSeasion.txt in Resources */,
+				A9D83F6A29E99F5E00D1D09C /* PS_YimHyeRim_LatestSeason.txt in Resources */,
+				A9AA147029E8390300EC043B /* KGC_NohRan_PlayStyle.txt in Resources */,
+				A9D208F229E6E4CC00467C52 /* IBK_LeeJin_LatestSeason.txt in Resources */,
+				A9D83F9229EA478800D1D09C /* AI_LeeKoEun_PlayStyle.txt in Resources */,
+				A9B5F37929E43646008E197B /* HH_JeongSiYoung_PlayStyle.txt in Resources */,
+				A9D208F129E6E4CC00467C52 /* IBK_KimJuHyang_PlayStyle.txt in Resources */,
+				A9D83F6029E99F5E00D1D09C /* PS_LeeJuAh_LatestSeason.txt in Resources */,
+				A9A2FC0829E5920E00188428 /* GS_HanSooJi_PlayStyle.txt in Resources */,
+				A9D208FB29E6E4CC00467C52 /* IBK_OhYuRan_PlayStyle.txt in Resources */,
+				A9D208F529E6E4CC00467C52 /* IBK_KooHyeIn_PlayStyle.txt in Resources */,
+				A9A2FBFF29E5920E00188428 /* GS_KimYuRi_LatestSeason.txt in Resources */,
+				A9A2FC0B29E5920E00188428 /* GS_KimJooHee_PlayStyle.txt in Resources */,
+				A9D83F6E29E99F5E00D1D09C /* PS_KimHaeRan_LatestSeason.txt in Resources */,
+				A9D83F6929E99F5E00D1D09C /* PS_KimNaHee_PlayStyle.txt in Resources */,
+				A9B5F38529E43646008E197B /* HH_HwangYeonJoo_PlayStyle.txt in Resources */,
+				A9D208FC29E6E4CC00467C52 /* IBK_YangYuKyung_PlayStyle.txt in Resources */,
+				A9D83F9329EA478800D1D09C /* AI_HaHyeJin_PlayStyle.txt in Resources */,
+				A9AA147229E8397000EC043B /* KGC_KimHyeonJi_LatestSeason.txt in Resources */,
+				A9AA146229E8390300EC043B /* KGC_ParkHyeMin_PlayStyle.txt in Resources */,
+				A9B5F35D29E43630008E197B /* HP_JeongDaeYoung_PlayStyle.txt in Resources */,
+				A9AA146B29E8390300EC043B /* KGC_LeeSeonWoo_LatestSeason.txt in Resources */,
+				A9B5F37F29E43646008E197B /* HH_HanMiReu_PlayStyle.txt in Resources */,
+				A9A2FC0029E5920E00188428 /* GS_YoonGyeol_PlayStyle.txt in Resources */,
+				A9D83F9729EA478800D1D09C /* AI_LeeMinSeo_LatestSeason.txt in Resources */,
+				A9AA146329E8390300EC043B /* KGC_JungHoYoung_PlayStyle.txt in Resources */,
+				A9D83F8829EA478800D1D09C /* AI_ChoiGaEun_PlayStyle.txt in Resources */,
+				A9AA146529E8390300EC043B /* KGC_SeoYuKyung_LatestSeason.txt in Resources */,
+				A9AA146829E8390300EC043B /* KGC_HanSongYi_PlayStyle.txt in Resources */,
+				A9AA146D29E8390300EC043B /* KGC_KoUiJeong_LatestSeason.txt in Resources */,
+				A9B5F35E29E43630008E197B /* HP_YimJuEun_LatestSeason.txt in Resources */,
+				A9D208FE29E6E4CC00467C52 /* IBK_YukSeoYeong_LatestSeason.txt in Resources */,
+				A9D208FF29E6E4CC00467C52 /* IBK_PyoSeungJu_LatestSeason.txt in Resources */,
+				A9D208F829E6E4CC00467C52 /* IBK_JeonHyunKyung_PlayStyle.txt in Resources */,
+				A9D83F7029E99F5E00D1D09C /* PS_ParkHyeonJu_LatestSeason.txt in Resources */,
+				A9B5F36029E43630008E197B /* HP_LeeMiSo_LatestSeason.txt in Resources */,
+				A9AA146929E8390300EC043B /* KGC_YeumHyeSeon_PlayStyle.txt in Resources */,
+				A9B5F38629E43646008E197B /* HH_HwangJiMin_PlayStyle.txt in Resources */,
+				A9D208F429E6E4CC00467C52 /* IBK_ChoiJungMin_PlayStyle.txt in Resources */,
+				A9D83F9029EA478800D1D09C /* AI_MoonSeulKi_LatestSeason.txt in Resources */,
+				A9B5F35229E43630008E197B /* HP_BackChaeRim_PlayStyle.txt in Resources */,
+				A9D83F6429E99F5E00D1D09C /* PS_JeongYunJoo_PlayStyle.txt in Resources */,
+				A9B5F35C29E43630008E197B /* HP_ParkJeongAh_PlayStyle.txt in Resources */,
+				A9AA146429E8390300EC043B /* KGC_ParkEunJin_LatestSeason.txt in Resources */,
+				A9B5F37B29E43646008E197B /* HH_KimJuHa_PlayStyle.txt in Resources */,
+				A9D83F5F29E99F5E00D1D09C /* PS_KimDaEun_LatestSeason.txt in Resources */,
+				A9A2FC0629E5920E00188428 /* GS_MoonMyungHwa_PlayStyle.txt in Resources */,
+				A9D83F6629E99F5E00D1D09C /* PS_ParkSuYeon_LatestSeason.txt in Resources */,
+				A9B5F38D29E43708008E197B /* HP_JeongSoYool_PlayStyle.txt in Resources */,
+				A9D83F9429EA478800D1D09C /* AI_ParkYeonWha_LatestSeason.txt in Resources */,
+				A9B5F35829E43630008E197B /* HP_KongEunSeo_PlayStyle.txt in Resources */,
+				A9D83F6B29E99F5E00D1D09C /* PS_LeeWonJeong_PlayStyle.txt in Resources */,
+				A9D83F6829E99F5E00D1D09C /* PS_KimMinJi_PlayStyle.txt in Resources */,
+				A9D83F8B29EA478800D1D09C /* AI_KimHaeBin_PlayStyle.txt in Resources */,
+				A9AA146129E8390300EC043B /* KGC_KoMinJi_LatestSeason.txt in Resources */,
+				A9B5F38329E43646008E197B /* HH_HwangYoonSung_PlayStyle.txt in Resources */,
+				A9D83F6729E99F5E00D1D09C /* PS_DoSuBeen_LatestSeason.txt in Resources */,
+				A9AA146F29E8390300EC043B /* KGC_LeeYeSol_LatestSeason.txt in Resources */,
+				A9E740F029E2F8D80024DBEC /* Assets.xcassets in Resources */,
+				A9D83F7129E99F5E00D1D09C /* PS_Abbondanza.txt in Resources */,
+				A9B5F38029E43646008E197B /* HH_LeeHyunJi_PlayStyle.txt in Resources */,
+				A9B5F38A29E43646008E197B /* HH_SeoGaEun_PlayStyle.txt in Resources */,
+				A9D83F8D29EA478800D1D09C /* AI_LeeHyun_LatestSeason.txt in Resources */,
+				A9A2FC0329E5920E00188428 /* GS_YooSeoYeun_PlayStyle.txt in Resources */,
+				A9B5F38429E43646008E197B /* HH_LeeYoungJu_PlayStyle.txt in Resources */,
+				A9D83F5D29E99F5E00D1D09C /* PS_KimSeoYoon_PlayStyle.txt in Resources */,
+				A9D83F6229E99F5E00D1D09C /* PS_KimYeonKoung_PlayStyle.txt in Resources */,
+				A9D83F8E29EA478800D1D09C /* AI_ParkGyeongHyeon_LatestSeason.txt in Resources */,
+				A9A2FBFE29E5920E00188428 /* GS_OhSeYeon_PlayStyle.txt in Resources */,
+				A9D208F629E6E4CC00467C52 /* IBK_KimYunWoo_PlayStyle.txt in Resources */,
+				A9D208FA29E6E4CC00467C52 /* IBK_LeeSolAh_PlayStyle.txt in Resources */,
+				A9B5F37A29E43646008E197B /* HH_LeeDaHyun_PlayStyle.txt in Resources */,
+				A9D83F9829EA478800D1D09C /* AI_KooSol_LatestSeason.txt in Resources */,
+				A9B5F38829E43646008E197B /* HH_KoYeRim_PlayStyle.txt in Resources */,
+				A9D83F9129EA478800D1D09C /* AI_JiMinKyeong_LatestSeason.txt in Resources */,
+				A9D208FD29E6E4CC00467C52 /* IBK_ShinYeonGyeong_PlayStyle.txt in Resources */,
+				A9B5F38B29E43646008E197B /* HH_YangHyoJin_PlayStyle.txt in Resources */,
+				A9B5F37D29E43646008E197B /* HH_KangSungHyung_CoachingStyle.txt in Resources */,
+				A9B5F35F29E43630008E197B /* HP_LeeYunJeong_PlayStyle.txt in Resources */,
+				A9B5F35429E43630008E197B /* HP_AhnYeRim_PlayStyle.txt in Resources */,
+				A9D208ED29E6E4CC00467C52 /* IBK_ParkMinJi_PlayStyle.txt in Resources */,
+				A9AA146E29E8390300EC043B /* KGC_ParkEunJi_LatestSeason.txt in Resources */,
+				A9D208F729E6E4CC00467C52 /* IBK_KimHaKyung_PlayStyle.txt in Resources */,
+				A9A2FBFD29E5920E00188428 /* GS_KwonMinJi_PlayStyle.txt in Resources */,
+				A9D83F8929EA478800D1D09C /* AI_LeeHanBi_PlayStyle.txt in Resources */,
+				A9B5F37C29E43646008E197B /* HH_KimDaIn_LatestSeason.txt in Resources */,
+				A9D83F6D29E99F5E00D1D09C /* PS_KimMiYeon_LatestSeason.txt in Resources */,
+				A9AA145F29E8390300EC043B /* KGC_ChoiHyoSeo_LatestSeason.txt in Resources */,
+				A9D208F329E6E4CC00467C52 /* IBK_ChoiSuBin_PlayStyle.txt in Resources */,
+				A9D83F6C29E99F5E00D1D09C /* PS_KimDaSol_PlayStyle.txt in Resources */,
+				A9AA146629E8390300EC043B /* KGC_KimChaeNa_PlayStyle.txt in Resources */,
+				A9D83F9529EA478800D1D09C /* AI_YeumOrkhon_PlayStyle.txt in Resources */,
+				A9B5F37E29E43646008E197B /* HH_KimSaRang_PlayStyle.txt in Resources */,
+				A9D83F7329E9A16300D1D09C /* PS_KimJiWoo_PlayStyle.txt in Resources */,
+				A9D83F8C29EA478800D1D09C /* AI_LeeEunJi_PlayStyle.txt in Resources */,
+				A9B5F35629E43630008E197B /* HP_WooSuMin_PlayStyle.txt in Resources */,
+				A9B5F38729E43646008E197B /* HH_LeeNaYeon_PlayStyle.txt in Resources */,
+				A9AA146029E8390300EC043B /* KGC_LeeSoYoung_PlayStyle.txt in Resources */,
+				A9D83F8A29EA478800D1D09C /* AI_ParkEunSeo_LatestSeason.txt in Resources */,
+				A9AA146C29E8390300EC043B /* KGC_LeeJiSu_PlayStyle.txt in Resources */,
+				A9B5F38129E43646008E197B /* HH_HwangMinKyung_PlayStyle.txt in Resources */,
+				A9D83F6129E99F5E00D1D09C /* PS_ParkHyeJin_LatestSeason.txt in Resources */,
+				A9D208F029E6E4CC00467C52 /* IBK_KimSuBin_PlayStyle.txt in Resources */,
+				A9A2FC0A29E5920E00188428 /* GS_KangSoHwi_PlayStyle.txt in Resources */,
+				A9A2FC0529E5920E00188428 /* GS_MoonJiYun_PlayStyle.txt in Resources */,
+				A9AA146A29E8390300EC043B /* KGC_ChaeSeonAh_LatestSeason.txt in Resources */,
+				A9B5F35B29E43630008E197B /* HP_MoonJeongWon_PlayStyle.txt in Resources */,
+				A9A2FC0729E5920E00188428 /* GS_KimJiWon_PlayStyle.txt in Resources */,
+				A9B5F36229E43630008E197B /* HP_YimMyungOk_PlayStyle.txt in Resources */,
+				A9B5F38929E43646008E197B /* HH_NaHyunSoo_PlayStyle.txt in Resources */,
+				A9B5F35129E43630008E197B /* HP_ChaYuJeong_PlayStyle.txt in Resources */,
+				A9D83F6329E99F5E00D1D09C /* PS_ParkEunSeo_LatestSeason.txt in Resources */,
+				A9B5F36329E43630008E197B /* HP_LeeYeEun_PlayStyle.txt in Resources */,
+				A9D208EF29E6E4CC00467C52 /* IBK_KimSuJi_PlayStyle.txt in Resources */,
+				A9B5F37829E43646008E197B /* HH_KimYeonGyeon_PlayStyle.txt in Resources */,
+				A9A2FC0129E5920E00188428 /* GS_HanSooJin_PlayStyle.txt in Resources */,
+				A9D208F929E6E4CC00467C52 /* IBK_KimHyunJung_PlayStyle.txt in Resources */,
+				A9B5F35329E43630008E197B /* HP_BaeYuNa_PlayStyle.txt in Resources */,
+				A9B5F35A29E43630008E197B /* HP_JeonSaeYan_LatestSeason.txt in Resources */,
+				A9D83F6F29E99F5E00D1D09C /* PS_KimChaeYeon_LatestSeason.txt in Resources */,
+				A9B5F36129E43630008E197B /* HP_LeeYeDam_PlayStyle.txt in Resources */,
+				A9D83F5E29E99F5E00D1D09C /* PS_PyeonJiSu_LatestSeason.txt in Resources */,
+				A9AA147429E83AF200EC043B /* KGC_KoHeeJin.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E740E429E2F8D60024DBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E740EE29E2F8D60024DBEC /* Teams.swift in Sources */,
+				A9E7410829E2FE040024DBEC /* GSKIXX.swift in Sources */,
+				A9E7410C29E2FE190024DBEC /* IBKAltos.swift in Sources */,
+				A9E7411029E2FE400024DBEC /* AIPeppers.swift in Sources */,
+				A9E740EC29E2F8D60024DBEC /* VLeagueWomensVolleyballApp.swift in Sources */,
+				A9E7410E29E2FE350024DBEC /* HyundaiHillstate.swift in Sources */,
+				A9E7410629E2FDFD0024DBEC /* KGC.swift in Sources */,
+				A9E7411229E301AE0024DBEC /* Team.swift in Sources */,
+				A9E7410429E2FDEE0024DBEC /* HiPass.swift in Sources */,
+				A9E7410A29E2FE130024DBEC /* PinkSpiders.swift in Sources */,
+				A9B5F38F29E4439C008E197B /* Member.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9E740F429E2F8D80024DBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E740F529E2F8D80024DBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E740F729E2F8D80024DBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VLeagueWomensVolleyball/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZJJVW89MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horus.VLeagueWomensVolleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9E740F829E2F8D80024DBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VLeagueWomensVolleyball/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZJJVW89MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.horus.VLeagueWomensVolleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E740E329E2F8D60024DBEC /* Build configuration list for PBXProject "VLeagueWomensVolleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E740F429E2F8D80024DBEC /* Debug */,
+				A9E740F529E2F8D80024DBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E740F629E2F8D80024DBEC /* Build configuration list for PBXNativeTarget "VLeagueWomensVolleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E740F729E2F8D80024DBEC /* Debug */,
+				A9E740F829E2F8D80024DBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9E7413829E31CD10024DBEC /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9E7413929E31CD10024DBEC /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9E7413829E31CD10024DBEC /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9E740E029E2F8D60024DBEC /* Project object */;
+}

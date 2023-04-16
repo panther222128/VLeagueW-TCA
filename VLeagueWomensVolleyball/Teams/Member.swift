@@ -52,7 +52,6 @@ struct Member: ReducerProtocol {
             }
         }
     }
-    
 }
 
 struct MemberView: View {

@@ -16,16 +16,6 @@ struct Team: ReducerProtocol {
         let emblemFileName: String
         var members: IdentifiedArrayOf<Member.State>
         var selection: Identified<Member.State.ID, Member.State?>?
-        let randomMember: Member.State
-        init(id: UUID, name: String, hometown: String, emblemFileName: String, members: IdentifiedArrayOf<Member.State>, selection: Identified<Member.State.ID, Member.State?>? = nil) {
-            self.id = id
-            self.name = name
-            self.hometown = hometown
-            self.emblemFileName = emblemFileName
-            self.members = members
-            self.selection = selection
-            self.randomMember = members.randomElement() ?? .init(id: UUID(), imageFileName: "", name: "", birth: "", tall: 0, weight: nil, position: .none, number: nil, descriptionTitle: .none, descriptionFileName: "")
-        }
     }
     
     enum Action: Equatable {
@@ -69,19 +59,15 @@ struct TeamView: View {
     var body: some View {
         WithViewStore(self.store, observe: { $0 }) { viewStore in
             NavigationStack {
-                ScrollView {
-                    Image(viewStore.randomMember.imageFileName)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .padding()
-                        .ignoresSafeArea(edges: [.leading, .trailing])
-                    Text(viewStore.randomMember.name)
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .padding()
-                        .ignoresSafeArea(edges: [.leading, .trailing])
-                    Spacer()
-                    VStack {
+                VStack {
+                    ScrollView {
+                        ScrollView(.horizontal) {
+                            HStack {
+                                ForEach(viewStore.members) { member in
+                                    MemberCardView(member: member)
+                                }
+                            }
+                        }
                         ForEach(viewStore.members) { member in
                             NavigationLink(
                                 destination: IfLetStore(
@@ -109,14 +95,37 @@ struct TeamView: View {
                                     }
                                 }
                                 .padding()
-                                Divider()
                             }
                         }
                     }
-                    .ignoresSafeArea(edges: [.leading, .trailing])
                 }
-                .ignoresSafeArea(edges: [.leading, .trailing, .bottom])
             }
+        }
+    }
+}
+
+struct MemberCardView: View {
+    let member: Member.State
+    
+    var body: some View {
+        VStack {
+            Image(member.imageFileName)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            Text(getPlayerNumber())
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+        }
+    }
+    
+    private func getPlayerNumber() -> String {
+        guard let number = member.number else { return member.name }
+        if member.position == .headCoach {
+            return member.name
+        } else {
+            return "No. " + String(number) + " " + member.name
         }
     }
 }
